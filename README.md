@@ -49,15 +49,15 @@ A place to share code for _Electricity inaccessibility across historically redli
 		
     	ii.	311 Filter: > 30 households 
 		
-    	iii.	Energy Use Filter: > 100 residences
+    	iii.	Energy Use Filter: > 30 residences
 		
 	b. CT
 	
-    	i.	SAIFI Filter: >100 customers 
+    	i.	SAIFI Filter: >30 customers 
 		
-    	ii.	311 Filter: > 100 households 
+    	ii.	311 Filter: > 30 households 
 		
-    	iii.	Energy Use Filter: > 100 residences
+    	iii.	Energy Use Filter: > 30 residences
 		
 **5.	Analyses**
     
