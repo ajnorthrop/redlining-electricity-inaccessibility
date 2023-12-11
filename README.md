@@ -45,9 +45,9 @@ A place to share code for _Electricity inaccessibility across historically redli
    
 	a. HOLC
 	
-    	i.	SAIFI Filter: >100 customers 
+    	i.	SAIFI Filter: >30 customers 
 		
-    	ii.	311 Filter: > 100 households 
+    	ii.	311 Filter: > 30 households 
 		
     	iii.	Energy Use Filter: > 100 residences
 		
