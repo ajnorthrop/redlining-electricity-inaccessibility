@@ -7,7 +7,13 @@ A place to share code for _Electricity inaccessibility across historically redli
 
 	b. CT ICE Calculations [Loads and calculates ICE Metrics for NYC, 2020]
 	
-**2.	Data Processing**
+**2.	Data Imputation**
+
+	a. SAIFI Data Imputation
+
+	b. Energy Usage Imputation
+ 	
+**3.	Data Processing**
    
 	a. NYSPO -> SAIFI Calculations [Calculates SAIFI for NYC POLs 2017-2019]
 	
@@ -19,7 +25,7 @@ A place to share code for _Electricity inaccessibility across historically redli
 		
 	c. 311 Calls -> Aggregation to CT [Calculate outage for NYC CTs 2017-2019]
 	
-**3.	Areal Interpolation**
+**4.	Areal Interpolation**
    
 	a. Energy use [Interpolates Total MWH and Households for Average MWH/Household]
 	
@@ -41,7 +47,7 @@ A place to share code for _Electricity inaccessibility across historically redli
 		
     	iv.	POL -> CT (Seasonal)
 		
-**4.	Applying Filters**
+**5.	Applying Filters**
    
 	a. HOLC
 	
@@ -59,7 +65,7 @@ A place to share code for _Electricity inaccessibility across historically redli
 		
     	iii.	Energy Use Filter: > 30 residences
 		
-**5.	Analyses**
+**6.	Analyses**
     
 	a. HOLC
 	
@@ -89,7 +95,7 @@ A place to share code for _Electricity inaccessibility across historically redli
 		
     	ii.	CT
 		
-**6.	Analyses**
+**7.	Analyses**
    
 	a. ZCTA and Income 
 	
