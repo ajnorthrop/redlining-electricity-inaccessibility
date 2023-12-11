@@ -1,23 +1,23 @@
 # redlining-electricity-inaccessibility
-A place to share code for Electricity inaccessibility across historically redlined areas and present-day areas in New York City
+A place to share code for _Electricity inaccessibility across historically redlined areas and present-day areas in New York City_
 
 **1.	Base data**
    
-	a.	NYC HOLC Data [Aggregates NYC HOLC Maps]
+	a. NYC HOLC Data [Aggregates NYC HOLC Maps]
 
-	b.  CT ICE Calculations [Loads and calculates ICE Metrics for NYC, 2020]
+	b. CT ICE Calculations [Loads and calculates ICE Metrics for NYC, 2020]
 	
 **2.	Data Processing**
    
-	a.	NYSPO -> SAIFI Calculations [Calculates SAIFI for NYC POLs 2017-2019]
+	a. NYSPO -> SAIFI Calculations [Calculates SAIFI for NYC POLs 2017-2019]
 	
-	b.	311 Calls -> Aggregation to HOLC [Calculates outage counts for NYC HOLCs 2017-2019]
+	b. 311 Calls -> Aggregation to HOLC [Calculates outage counts for NYC HOLCs 2017-2019]
 	
     	i.	311 Calls -> Aggregation to HOLC (All)
 		
     	ii.	311 Calls -> Aggregation to HOLC (Seasonal)
 		
-	c.	311 Calls -> Aggregation to CT [Calculate outage for NYC CTs 2017-2019]
+	c. 311 Calls -> Aggregation to CT [Calculate outage for NYC CTs 2017-2019]
 	
 **3.	Areal Interpolation**
    
@@ -31,7 +31,7 @@ A place to share code for Electricity inaccessibility across historically redlin
 		
     	iv.	ZCTA -> CT (Seasonal)
 		
-	b.	NYSPO [Interpolates SAIFI to HOLCs and CTs]
+	b. NYSPO [Interpolates SAIFI to HOLCs and CTs]
 	
     	i.	POL -> HOLC (All)
 		
@@ -43,15 +43,15 @@ A place to share code for Electricity inaccessibility across historically redlin
 		
 **4.	Applying Filters**
    
-	a.	HOLC
+	a. HOLC
 	
     	i.	SAIFI Filter: >100 customers 
 		
     	ii.	311 Filter: > 100 households 
 		
-    	iii.	Energy Use Filter: > 100 residences'
+    	iii.	Energy Use Filter: > 100 residences
 		
-	b.	CT
+	b. CT
 	
     	i.	SAIFI Filter: >100 customers 
 		
@@ -61,7 +61,7 @@ A place to share code for Electricity inaccessibility across historically redlin
 		
 **5.	Analyses**
     
-	a.	HOLC
+	a. HOLC
 	
     	i.	SAIFI Analysis 
 		
@@ -69,7 +69,7 @@ A place to share code for Electricity inaccessibility across historically redlin
 		
     	iii.	Energy Use Analysis 
 		
-	b.	CT
+	b. CT
 	
     	i.	SAIFI Analysis 
 		
@@ -77,13 +77,13 @@ A place to share code for Electricity inaccessibility across historically redlin
 		
     	iii.	Energy Use Analysis 
 		
-	c.	Correlation
+	c. Correlation
 	
     	i.	HOLC 
 		
     	ii.	CT 
 		
-	d.	Seasonal
+	d. Seasonal
 	
     	i.	HOLC 
 		
@@ -91,6 +91,6 @@ A place to share code for Electricity inaccessibility across historically redlin
 		
 **6.	Analyses**
    
-	a.	ZCTA and Income 
+	a. ZCTA and Income 
 	
-	b.	TBD
+	b. TBD
