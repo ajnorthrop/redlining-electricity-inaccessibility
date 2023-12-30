@@ -16,18 +16,18 @@ A place to share code for _Electricity inaccessibility across historically redli
 **3.	Data Processing**
    
 	a. NYSPO -> SAIFI Calculations [Calculates SAIFI for NYC POLs 2017-2019]
-	
-	b. 311 Calls -> Aggregation to HOLC [Calculates outage counts for NYC HOLCs 2017-2019]
+
+ 	b. Census data -> [Households to HOLC boundaries]
+
+	c. 311 Calls -> Aggregation to HOLC [Calculates outage counts for NYC HOLCs 2017-2019]
 	
     	i.	311 Calls -> Aggregation to HOLC (All)
 		
     	ii.	311 Calls -> Aggregation to HOLC (Seasonal)
 		
-	c. 311 Calls -> Aggregation to CT [Calculate outage for NYC CTs 2017-2019]
-	
-**4.	Areal Interpolation**
+	d. 311 Calls -> Aggregation to CT [Calculate outage for NYC CTs 2017-2019]
    
-	a. Energy use [Interpolates Total MWH and Households for Average MWH/Household]
+	e. Energy use [Interpolates Total MWH and Households for Average MWH/Household]
 	
     	i.	ZCTA -> HOLC (All)
 		
@@ -37,7 +37,7 @@ A place to share code for _Electricity inaccessibility across historically redli
 		
     	iv.	ZCTA -> CT (Seasonal)
 		
-	b. NYSPO [Interpolates SAIFI to HOLCs and CTs]
+	f. NYSPO [Interpolates SAIFI to HOLCs and CTs]
 	
     	i.	POL -> HOLC (All)
 		
