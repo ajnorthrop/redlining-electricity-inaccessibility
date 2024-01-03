@@ -47,7 +47,7 @@ A place to share code for _Electricity inaccessibility across historically redli
 		
     	iv.	POL -> CT (Seasonal)
 		
-**5.	Applying Filters**
+**4.	Applying Filters**
    
 	a. HOLC
 	
@@ -65,7 +65,7 @@ A place to share code for _Electricity inaccessibility across historically redli
 		
     	iii.	Energy Use Filter: > 30 residences
 		
-**6.	Analyses**
+**5.	Analyses**
     
 	a. HOLC
 	
@@ -95,7 +95,7 @@ A place to share code for _Electricity inaccessibility across historically redli
 		
     	ii.	CT
 		
-**7.	Analyses**
+**6.	Additional Analyses**
    
 	a. ZCTA and Income 
 	
