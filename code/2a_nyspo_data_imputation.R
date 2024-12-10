@@ -8,6 +8,7 @@
 ####*
 
 library(mice)
+set.seed(421)
 
 locality <- st_read(here("shapes","e_locality")) %>% 
   janitor::clean_names() %>% 
